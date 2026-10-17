@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Owner"
+  short_description: "Select eligible work for the chosen projects"
+  default_prompt: "Use $manage-issue with exact project_ids from workspace.yaml."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,32 @@
+schema_version: 1
+projects:
+  - project_id: "open-delivery-api"
+    display_name: "Open Delivery API"
+    path: "open-delivery-api"
+    kind: "api"
+    git_remote: "https://github.com/FaustoCouto/open-delivery-api.git"
+    issue_tracker: "https://github.com/FaustoCouto/open-delivery-api/issues"
+    validation_commands:
+      - "npm run lint"
+      - "npm run format:check"
+      - "npm test"
+      - "npm run build"
+    workflow_files:
+      task_setup: ".codex/skills/start-task/SKILL.md"
+      issue_protocol: ".codex/skills/run-harness/references/protocol.md"
+      delivery: ".codex/skills/end-task/SKILL.md"
+      merge_pr: ".codex/skills/merge-pr/SKILL.md"
+      role_skills:
+        manage_issue: ".codex/skills/manage-issue/SKILL.md"
+        qa_issue: ".codex/skills/qa-issue/SKILL.md"
+        discover_work: ".codex/skills/discover-work/SKILL.md"
+        run_harness: ".codex/skills/run-harness/SKILL.md"
+        implement_issue: ".codex/skills/implement-issue/SKILL.md"
+  - project_id: "open-delivery-front"
+    display_name: "Open Delivery Front"
+    path: "open-delivery-front"
+    kind: "frontend"
+    status: "directory-only"
+    git_remote: null
+    issue_tracker: null
+    validation_commands: []

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "open-delivery-api",
+			"path": "./open-delivery-api"
+		},
+		{
+			"name": "open-delivery-front",
+			"path": "./open-delivery-front"
+		}
+	],
+	"settings": {}
+}
