@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-software-skills",
+  "version": "0.1.0",
+  "description": "Reusable project-scoped software workflow skills for Codex.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Codex Software Skills",
+        "shortDescription": "Project workflow skills",
+        "longDescription": "Reusable project-scoped workflows for discovering work, selecting tasks, coordinating implementation, and reviewing software changes in Codex.",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "defaultPrompt": "Use the workflow skill that fits my task and follow the selected project instructions."
+      }
+    }
+  }
+}

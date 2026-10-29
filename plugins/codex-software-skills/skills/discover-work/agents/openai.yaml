@@ -1,0 +1,6 @@
+interface:
+  display_name: "Business Analyst"
+  short_description: "Find evidence-backed work across selected projects"
+  default_prompt: "Use $discover-work with exact project_ids from workspace.yaml."
+policy:
+  allow_implicit_invocation: false
